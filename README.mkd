@@ -1,0 +1,31 @@
+#### My solution for the challenge www.github.com/zero-plus-x/test-task
+
+#### Setup, running and tests:
+
+```# npm install```
+
+```# npm start```
+
+```# npm test```
+
+#### Folder structure:
+
+```
+|---server
+|------config
+|------domain
+|------middleware
+|------parser
+|------routes
+|------streams
+|---tests
+|------helper
+|------integration
+|-----------config
+|-----------middleware
+|-----------streams
+|------unit
+|-----------domain
+|---app.js
+|---package.json
+```

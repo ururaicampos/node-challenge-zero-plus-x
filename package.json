@@ -1,0 +1,23 @@
+{
+  "name": "node_challenge_zero_plus_x",
+  "Author": "Agostinho Neto",
+  "version": "0.0.1",
+  "private": true,
+  "description": "node_challenge_zero_plus_x - github.com/zero-plus-x/test-task",
+  "engines": {
+    "node": "6.3.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/mocha/bin/mocha tests/integration/**/*.js tests/unit/**/*.js --reporter spec"
+  },
+  "dependencies": {
+    "chai": "3.5.0",
+    "chai-http": "3.0.0",
+    "content-type": "1.0.2",
+    "express": "4.14.0",
+    "mocha": "3.0.2",
+    "morgan": "1.5.1"
+  }
+}
